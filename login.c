@@ -25,3 +25,10 @@ int encrypt_password(const char *password) {
     // In a real application, you would implement a secure hashing algorithm here.
     return 0; // Return 0 to indicate success
 }
+
+// Decrypt the password (placeholder implementation)
+int decrypt_password(const char *encrypted_password) {
+    // Placeholder for password decryption logic
+    // In a real application, you would implement a secure decryption algorithm here.
+    return 0; // Return 0 to indicate success
+}
