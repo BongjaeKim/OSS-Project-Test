@@ -4,5 +4,6 @@ int main()
 {
   printf("Open Source SW Project\n");
   printf("First GitHub Training\n");
+  visualize();
   return 0;
 }
