@@ -7,5 +7,6 @@ int main()
   printf("First GitHub Training\n");
   // call the login function from login.c
   login();
+  visualize();
   return 0;
 }
