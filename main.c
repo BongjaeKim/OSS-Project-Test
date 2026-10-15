@@ -5,11 +5,10 @@ int main()
 {
   printf("Open Source SW Project\n");
   printf("First GitHub Training\n");
-<<<<<<< HEAD
   visualize();
-=======
   // call the login function from login.c
   login();
->>>>>>> 8afe1ff ([Feature] Implement login())
+  // call the login_with_encrypted_password function from login.c
+  login_with_encrypted_password();
   return 0;
 }
