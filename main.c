@@ -10,5 +10,6 @@ int main()
   login();
   // call the login_with_encrypted_password function from login.c
   login_with_encrypted_password();
+    login_with_encrypted_password();
   return 0;
 }
