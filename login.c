@@ -1,3 +1,34 @@
 #include <stdio.h>
 
-login.c
+// This is a simple login program that prompts the user for a username and password.
+int main() {
+    char username[50];
+    char password[50];
+
+    printf("Enter username: ");
+    scanf("%s", username);
+
+    printf("Enter password: ");
+    scanf("%s", password);
+
+    // For demonstration purposes, we will just print the entered credentials.
+    // In a real application, you would validate these credentials against a database or other secure storage.
+    printf("Username: %s\n", username);
+    printf("Password: %s\n", password);
+
+    return 0;
+}
+
+// Function to encrypt the password (placeholder implementation)
+int encrypt_password(const char *password) {
+    // Placeholder for password encryption logic
+    // In a real application, you would implement a secure hashing algorithm here.
+    return 0; // Return 0 to indicate success
+}
+
+// Decrypt the password (placeholder implementation)
+int decrypt_password(const char *encrypted_password) {
+    // Placeholder for password decryption logic
+    // In a real application, you would implement a secure decryption algorithm here.
+    return 0; // Return 0 to indicate success
+}
